@@ -10,7 +10,6 @@ namespace tamrin11.Service
     {
         public InvalidQuantityException(string massage) : base(massage)
         {
-            
         }
     }
 }
