@@ -67,11 +67,11 @@ namespace tamrin11.Repasitory
         }
 
 
-        public ProductItem? GetById(string sku)
+        public ProductItem? GetByName(string name)
         {
             foreach (var prod in _product)
             {
-                if (prod.Sku == sku)
+                if (prod.Name == name)
                     return prod;
             }
 

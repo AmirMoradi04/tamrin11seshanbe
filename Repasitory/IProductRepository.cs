@@ -10,7 +10,7 @@ namespace tamrin11.Repasitory
     {
         bool Add(ProductItem product);
 
-        ProductItem? GetById(string sku);
+        ProductItem? GetByName(string name);
 
         List<ProductItem> GetAll();
 
