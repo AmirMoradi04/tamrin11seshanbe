@@ -17,8 +17,5 @@ namespace tamrin11.Repasitory
         bool Update(string sku,ProductItem product);
 
         bool Delete(string sku);
-       
-       
-
     }
 }
